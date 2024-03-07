@@ -1,0 +1,14 @@
+$apple-gothic-neo: 'AppleSDGothicNeo';
+$text-font-faces: $apple-gothic-neo, 'Noto Sans KR', sans-serif;
+
+@font-face {
+  font-family: $apple-gothic-neo;
+  src: ('../assets/AppleSDGothicNeoRegular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: $apple-gothic-neo;
+  src: ('../assets/AppleSDGothicNeoBold.woff2') format('woff2');
+  font-weight: 600;
+}
