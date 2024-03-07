@@ -1,0 +1,14 @@
+@import '../../../styles/utils';
+
+.button {
+  width: rem(295);
+  height: rem(60);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blue2);
+  color: var(--white);
+  font: var(--h2);
+  border-radius: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+@import '../../../styles/utils';
+
+.wrapper {
+  width: fit-content;
+  height: rem(34);
+  padding: rem(6) rem(12) rem(4);
+  border: rem(1) solid var(--gray2);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: rem(4);
+  font: var(--body1);
+  color: var(--gray4);
+  letter-spacing: -1.5px;
+  cursor: pointer;
+
+  &--outlined {
+    border-color: var(--blue1);
+    color: var(--blue2);
+
+    svg,
+    path {
+      fill: var(--blue2) !important;
+    }
+  }
+
+  &--filled {
+    background-color: var(--blue1);
+    color: var(--white);
+  }
+
+  .icon {
+    min-width: fit-content;
+  }
+}
